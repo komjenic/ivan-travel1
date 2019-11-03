@@ -70,15 +70,15 @@ function App() {
                 <h3 className="headline headline--centered headline--orange headline--small headline--narrow headline--light headline--b-margin-large">Ever since, we&rsquo;ve been working to make travel <strong>better for everyone.</strong></h3>
 
                 <div className="wrapper wrapper--medium wrapper--b-margin">
-                  <img className="lazyload" sizes="(min-width: 970px) 976px, 100vw" data-srcset="assets/images/first-trip-low-res.jpg 565w, assets/images/first-trip.jpg 976w, assets/images/first-trip-hi-dpi.jpg 1952w" alt="Couple walking down a street." />
+                  <img className="lazyload" sizes="(min-width: 970px) 976px, 100vw" srcSet="assets/images/first-trip-low-res.jpg 565w, assets/images/first-trip.jpg 976w, assets/images/first-trip-hi-dpi.jpg 1952w" alt="Couple walking down a street." />
                 </div>
 
                 <div className="row row--gutters">
                   <div className="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
                     <picture>
-                      <source sizes="404px" data-srcset="assets/images/our-start.jpg 404w, assets/images/our-start-hi-dpi.jpg 808w" media="(min-width: 1020px)" />
-                      <source sizes="320px" data-srcset="assets/images/our-start-portrait.jpg 382w, assets/images/our-start-portrait-hi-dpi.jpg 764w" media="(min-width: 800px)" />
-                      <img className="lazyload" data-srcset="assets/images/our-start-landscape.jpg 800w, assets/images/our-start-landscape-hi-dpi.jpg 1600w" alt="Our founder, Jane Doe" />
+                      <source sizes="404px" srcSet="assets/images/our-start.jpg 404w, assets/images/our-start-hi-dpi.jpg 808w" media="(min-width: 1020px)" />
+                      <source sizes="320px" srcSet="assets/images/our-start-portrait.jpg 382w, assets/images/our-start-portrait-hi-dpi.jpg 764w" media="(min-width: 800px)" />
+                      <img className="lazyload" srcSet="assets/images/our-start-landscape.jpg 800w, assets/images/our-start-landscape-hi-dpi.jpg 1600w" alt="Our founder, Jane Doe" />
                     </picture>
                   </div>
                   <div className="row__medium-8 row__medium-8--smaller">
@@ -141,7 +141,7 @@ function App() {
                   <div className="row__large-4">
                     <div className="testimonial">
                       <div className="testimonial__photo">
-                        <img className="lazyload" sizes="160px" data-srcset="assets/images/testimonial-jane.jpg 160w, assets/images/testimonial-jane-hi-dpi.jpg 320w" alt="Jane Doe" />
+                        <img className="lazyload" sizes="160px" srcSet="assets/images/testimonial-jane.jpg 160w, assets/images/testimonial-jane-hi-dpi.jpg 320w" alt="Jane Doe" />
                       </div>
                       <h3 className="testimonial__title">Jane Doe</h3>
                       <h4 className="testimonial__subtitle">9 Time Escaper</h4>
@@ -152,7 +152,7 @@ function App() {
                   <div className="row__large-4">
                     <div className="testimonial">
                       <div className="testimonial__photo">
-                        <img className="lazyload" sizes="160px" data-srcset="assets/images/testimonial-john.jpg 160w, assets/images/testimonial-john-hi-dpi.jpg 320w" alt="John Smith" />
+                        <img className="lazyload" sizes="160px" srcSet="assets/images/testimonial-john.jpg 160w, assets/images/testimonial-john-hi-dpi.jpg 320w" alt="John Smith" />
                       </div>
                       <h3 className="testimonial__title">John Smith</h3>
                       <h4 className="testimonial__subtitle">4 Time Escaper</h4>
@@ -163,7 +163,7 @@ function App() {
                   <div className="row__large-4">
                     <div className="testimonial testimonial--last">
                       <div className="testimonial__photo">
-                        <img className="lazyload" sizes="160px" data-srcset="assets/images/testimonial-cat.jpg 160w, assets/images/testimonial-cat-hi-dpi.jpg 320w" alt="Cat McKitty" />
+                        <img className="lazyload" sizes="160px" srcSet="assets/images/testimonial-cat.jpg 160w, assets/images/testimonial-cat-hi-dpi.jpg 320w" alt="Cat McKitty" />
                       </div>
                       <h3 className="testimonial__title">Cat McKitty</h3>
                       <h4 className="testimonial__subtitle">6 Time Escaper</h4>
