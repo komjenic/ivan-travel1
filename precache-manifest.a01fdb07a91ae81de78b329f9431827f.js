@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1f51a4fce156120b94bf33f5cd53a48a",
+    "revision": "b170fbc4cdf8f686f7d26f33149f7704",
     "url": "/ivan-travel1/index.html"
   },
   {
-    "revision": "7800bba2abe14472813d",
+    "revision": "ea6f460a68a054f81426",
     "url": "/ivan-travel1/static/css/main.b100e6da.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ivan-travel1/static/js/2.731f73a5.chunk.js"
   },
   {
-    "revision": "7800bba2abe14472813d",
-    "url": "/ivan-travel1/static/js/main.ec327010.chunk.js"
+    "revision": "ea6f460a68a054f81426",
+    "url": "/ivan-travel1/static/js/main.2878f7d2.chunk.js"
   },
   {
     "revision": "815c2e1b8d4c9de70274",
